@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Permakultura 🌱</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+    <nav>
+        <div class="logo">🌱 Permakultura</div>
+        <div class="nav-links">
+            <a href="#co-to">Co to jest?</a>
+            <a href="#zasady">Zasady</a>
+            <a href="#ogrod">Interaktywny ogród</a>
+            <a href="#quiz">Quiz</a>
+        </div>
+    </nav>
+
+    <div class="hero-content">
+        <p class="small-title">NATURA • CZŁOWIEK • RÓWNOWAGA</p>
+        <h1>Permakultura</h1>
+        <p>
+            Sposób projektowania życia i przestrzeni w zgodzie
+            z naturą.
+        </p>
+        <a href="#co-to" class="button">Dowiedz się więcej ↓</a>
+    </div>
+</header>
+
+
+<main>
+
+<section id="co-to" class="section">
+    <div class="section-heading">
+        <span>01</span>
+        <h2>Co to jest?</h2>
+    </div>
+
+    <div class="text-card">
+        <p>
+            <strong>Permakultura</strong> to podejście do projektowania
+            ogrodów, gospodarstw i innych przestrzeni tak, aby działały
+            możliwie naturalnie i długoterminowo.
+        </p>
+
+        <p>
+            Zamiast walczyć z naturą, permakultura stara się
+            wykorzystywać naturalne procesy. Przykładem może być
+            zbieranie deszczówki, kompostowanie czy sadzenie roślin,
+            które wzajemnie sobie pomagają.
+        </p>
+    </div>
+</section>
+
+
+<section id="zasady" class="section alt">
+    <div class="section-heading">
+        <span>02</span>
+        <h2>Przykłady</h2>
+    </div>
+
+    <div class="cards">
+
+        <article class="card">
+            <div class="card-icon">💧</div>
+            <h3>Zbieranie deszczówki</h3>
+            <p>
+                Woda deszczowa może być zbierana i wykorzystywana
+                do podlewania roślin.
+            </p>
+        </article>
+
+        <article class="card">
+            <div class="card-icon">♻️</div>
+            <h3>Kompostowanie</h3>
+            <p>
+                Resztki organiczne mogą zostać zamienione
+                w wartościowy nawóz.
+            </p>
+        </article>
+
+        <article class="card">
+            <div class="card-icon">🐝</div>
+            <h3>Wspieranie przyrody</h3>
+            <p>
+                Rośliny przyjazne owadom pomagają tworzyć
+                bardziej różnorodne środowisko.
+            </p>
+        </article>
+
+        <article class="card">
+            <div class="card-icon">🌳</div>
+            <h3>Wykorzystywanie zasobów</h3>
+            <p>
+                Celem jest ograniczanie marnowania wody,
+                energii i materiałów.
+            </p>
+        </article>
+
+    </div>
+</section>
+
+
+<section id="ogrod" class="section">
+    <div class="section-heading">
+        <span>03</span>
+        <h2>Interaktywny ogród</h2>
+    </div>
+
+    <p class="intro">
+        Kliknij wybrany element ogrodu, aby dowiedzieć się,
+        jak może być związany z permakulturą.
+    </p>
+
+    <div class="garden">
+
+        <button class="hotspot tree" data-info="🌳 Drzewa mogą dostarczać cień, owoce, drewno i schronienie dla zwierząt.">
+            🌳
+        </button>
+
+        <button class="hotspot water" data-info="💧 Zbiornik może gromadzić deszczówkę, którą później można wykorzystać do podlewania.">
+            💧
+        </button>
+
+        <button class="hotspot compost" data-info="♻️ Kompostownik pozwala wykorzystać odpady organiczne i stworzyć naturalny nawóz.">
+            ♻️
+        </button>
+
+        <button class="hotspot vegetables" data-info="🥕 Uprawa warzyw pozwala produkować żywność lokalnie i ograniczać transport.">
+            🥕
+        </button>
+
+        <button class="hotspot flowers" data-info="🌼 Kwiaty mogą przyciągać pszczoły i inne zapylacze.">
+            🌼
+        </button>
+
+        <div class="garden-title">
+            Kliknij element 🌱
+        </div>
+
+    </div>
+
+    <div id="info-box" class="info-box">
+        <p>Wybierz element ogrodu.</p>
+    </div>
+</section>
+
+
+<section id="quiz" class="section alt">
+    <div class="section-heading">
+        <span>04</span>
+        <h2>Quiz</h2>
+    </div>
+
+    <div class="quiz-box">
+
+        <div id="question-container"></div>
+
+        <button id="next-btn" class="button">
+            Dalej →
+        </button>
+
+        <div id="result"></div>
+
+    </div>
+</section>
+
+</main>
+
+
+<footer>
+    <p>🌱 Permakultura • Projekt edukacyjny</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
